@@ -19,10 +19,6 @@
 		"esModuleInterop": true,
 		"skipLibCheck": true,
 		"forceConsistentCasingInFileNames": true,
-		// Used by tsyringe
-		"experimentalDecorators": true,
-		// Used by tsyringe
-		"emitDecoratorMetadata": true,
 		"baseUrl": ".",
 		"allowJs": true,
 		"checkJs": true,

@@ -1,2 +1,10 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script context="module">
+    import "reflect-metadata";
+    import { dev } from '$app/env';
+
+    // Hydrate in dev mode for live reloads. Not required in prod mode.
+	export const hydrate = dev;
+</script>
+
+<h1>Hello World</h1>
+<p>Check out the <a href="/games">games</a>!</p>
